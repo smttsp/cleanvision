@@ -11,3 +11,6 @@ black
 build
 flake8
 psutil
+av
+rich
+typer
