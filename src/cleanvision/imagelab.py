@@ -242,10 +242,8 @@ class Imagelab:
                 "blurry": {}
             }
             imagelab.find_issues(issue_types)
-
-
-
         """
+
         to_compute_issues_with_params = self._get_issues_to_compute(issue_types)
         if verbose:
             print(
